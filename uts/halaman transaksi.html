@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Transaksi</title>
+  <style>
+    body { font-family: Arial; margin: 0; }
+    header, footer { background-color: #c63636; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #dc67da; padding: 10px; text-align: center; }
+    .content { padding: 20px; }
+    input, select, textarea { display: block; margin-bottom: 10px; width: 300px; padding: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Formulir Pembelian </h1>
+</header>
+
+<nav>
+  <a href="halaman produk.html">Beranda</a> |
+  <a href="halaman transaksi.html">Transaksi</a> |
+  <a href="halaman tentang kontak.html">Tentang Kami</a>
+</nav>
+
+<div class="content">
+  <form>
+    <label>Nama Pembeli:</label>
+    <input type="text" name="nama">
+    
+    <label>Alamat:</label>
+    <textarea name="alamat"></textarea>
+
+    <label>Produk yang Dibeli:</label>
+    <select>
+      <option>Jaket</option>
+      <option>Rompi</option>
+      <option>Baju</option>
+      <option>Kemeja</option>
+    </select>
+
+    <label>Jumlah:</label>
+    <input type="number" name="jumlah">
+
+    <label>Metode Pembayaran:</label>
+    <select>
+      <option>Transfer Bank</option>
+      <option>COD</option>
+    </select>
+
+    <input type="submit" value="Kirim">
+  </form>
+</div>
+
+<footer>
+  &copy; 2025 Toko Sepatu Keren
+</footer>
+
+</body>
+</html>
